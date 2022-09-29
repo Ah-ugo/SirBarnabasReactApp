@@ -7,6 +7,7 @@ import Otp from "./Pages/Otp";
 import "antd/dist/antd.css";
 import CardPay from "./Pages/CardPay";
 import SuccessFulPayment from "./Pages/SuccessFulPayment";
+import AuthenticateBank from "./Pages/AuthenticateBank";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/cardetails" element={<CardDetails />} />
           <Route path="/cardpay" element={<CardPay />} />
           <Route path="/success" element={<SuccessFulPayment />} />
+          <Route path="/auth" element={<AuthenticateBank />} />
         </Routes>
       </BrowserRouter>
     </div>
