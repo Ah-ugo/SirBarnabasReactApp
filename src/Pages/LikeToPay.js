@@ -1,5 +1,4 @@
 import React from "react";
-import Header1 from "./Components/Header1";
 import LogoDetail from "./Components/LogoDetail";
 import { FaMoneyBillAlt } from "react-icons/fa";
 import { AiFillBank, AiFillLock } from "react-icons/ai";

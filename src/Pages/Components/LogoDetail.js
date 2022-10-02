@@ -15,6 +15,7 @@ export default function LogoDetail() {
         <img
           src={require("../Assets/logo.png")}
           style={{ width: "70px", borderRadius: "100%" }}
+          alt="logo"
         />
         <div
           style={{

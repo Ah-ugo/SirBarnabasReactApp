@@ -1,4 +1,3 @@
-import { Divider } from "antd";
 import React from "react";
 
 export default function LogoDetail() {
@@ -12,10 +11,12 @@ export default function LogoDetail() {
           paddingRight: "20px",
           alignContent: "center",
           alignItems: "center",
+          borderBottom: "1px solid grey",
         }}>
         <img
           src={require("../Assets/logo.png")}
           style={{ width: "70px", borderRadius: "100%" }}
+          alt="Logo"
         />
         <div
           style={{
